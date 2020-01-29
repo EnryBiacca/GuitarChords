@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D47CBE23E0FD5B00CCFCC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D47CBD23E0FD5B00CCFCC9 /* AppDelegate.swift */; };
+		91D47CC023E0FD5B00CCFCC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D47CBF23E0FD5B00CCFCC9 /* SceneDelegate.swift */; };
+		91D47CC223E0FD5B00CCFCC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D47CC123E0FD5B00CCFCC9 /* ViewController.swift */; };
+		91D47CC523E0FD5B00CCFCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CC323E0FD5B00CCFCC9 /* Main.storyboard */; };
+		91D47CC723E0FD5C00CCFCC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CC623E0FD5C00CCFCC9 /* Assets.xcassets */; };
+		91D47CCA23E0FD5C00CCFCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CC823E0FD5C00CCFCC9 /* LaunchScreen.storyboard */; };
+		91D47CD523E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D47CD423E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.swift */; };
+		91D47CE023E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D47CDF23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.swift */; };
+		91D47CEF23E0FEB100CCFCC9 /* VariabiliGlobali.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D47CEE23E0FEB100CCFCC9 /* VariabiliGlobali.swift */; };
+		91D47CF523E0FF6700CCFCC9 /* VC_Tutti_accordi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D47CF423E0FF6700CCFCC9 /* VC_Tutti_accordi.swift */; };
+		91D47CF723E106AD00CCFCC9 /* manicoChitarraLineare.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CF623E106AC00CCFCC9 /* manicoChitarraLineare.png */; };
+		91D47D4123E1086800CCFCC9 /* 207.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CF923E1086100CCFCC9 /* 207.m4a */; };
+		91D47D4223E1086800CCFCC9 /* 206.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CFA23E1086100CCFCC9 /* 206.m4a */; };
+		91D47D4323E1086800CCFCC9 /* 309.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CFB23E1086100CCFCC9 /* 309.m4a */; };
+		91D47D4423E1086800CCFCC9 /* 610.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CFC23E1086100CCFCC9 /* 610.m4a */; };
+		91D47D4523E1086800CCFCC9 /* 511.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CFD23E1086100CCFCC9 /* 511.m4a */; };
+		91D47D4623E1086800CCFCC9 /* 611.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CFE23E1086100CCFCC9 /* 611.m4a */; };
+		91D47D4723E1086800CCFCC9 /* 503.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47CFF23E1086100CCFCC9 /* 503.m4a */; };
+		91D47D4823E1086800CCFCC9 /* 105.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0023E1086100CCFCC9 /* 105.m4a */; };
+		91D47D4923E1086800CCFCC9 /* 601.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0123E1086100CCFCC9 /* 601.m4a */; };
+		91D47D4A23E1086800CCFCC9 /* 107.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0223E1086100CCFCC9 /* 107.m4a */; };
+		91D47D4B23E1086800CCFCC9 /* 310.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0323E1086100CCFCC9 /* 310.m4a */; };
+		91D47D4C23E1086800CCFCC9 /* 203.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0423E1086100CCFCC9 /* 203.m4a */; };
+		91D47D4D23E1086800CCFCC9 /* 408.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0523E1086100CCFCC9 /* 408.m4a */; };
+		91D47D4E23E1086800CCFCC9 /* 510.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0623E1086100CCFCC9 /* 510.m4a */; };
+		91D47D4F23E1086800CCFCC9 /* 200.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0723E1086200CCFCC9 /* 200.m4a */; };
+		91D47D5023E1086800CCFCC9 /* 505.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0823E1086200CCFCC9 /* 505.m4a */; };
+		91D47D5123E1086800CCFCC9 /* 110.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0923E1086200CCFCC9 /* 110.m4a */; };
+		91D47D5223E1086800CCFCC9 /* 109.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0A23E1086200CCFCC9 /* 109.m4a */; };
+		91D47D5323E1086800CCFCC9 /* 304.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0B23E1086200CCFCC9 /* 304.m4a */; };
+		91D47D5423E1086800CCFCC9 /* 102.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0C23E1086200CCFCC9 /* 102.m4a */; };
+		91D47D5523E1086800CCFCC9 /* 301.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0D23E1086200CCFCC9 /* 301.m4a */; };
+		91D47D5623E1086800CCFCC9 /* 605.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0E23E1086200CCFCC9 /* 605.m4a */; };
+		91D47D5723E1086800CCFCC9 /* 602.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D0F23E1086200CCFCC9 /* 602.m4a */; };
+		91D47D5823E1086800CCFCC9 /* 202.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1023E1086200CCFCC9 /* 202.m4a */; };
+		91D47D5923E1086800CCFCC9 /* 411.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1123E1086200CCFCC9 /* 411.m4a */; };
+		91D47D5A23E1086800CCFCC9 /* 506.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1223E1086300CCFCC9 /* 506.m4a */; };
+		91D47D5B23E1086800CCFCC9 /* 600.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1323E1086300CCFCC9 /* 600.m4a */; };
+		91D47D5C23E1086800CCFCC9 /* 402.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1423E1086300CCFCC9 /* 402.m4a */; };
+		91D47D5D23E1086800CCFCC9 /* 209.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1523E1086300CCFCC9 /* 209.m4a */; };
+		91D47D5E23E1086800CCFCC9 /* 401.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1623E1086300CCFCC9 /* 401.m4a */; };
+		91D47D5F23E1086800CCFCC9 /* 208.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1723E1086300CCFCC9 /* 208.m4a */; };
+		91D47D6023E1086800CCFCC9 /* 201.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1823E1086300CCFCC9 /* 201.m4a */; };
+		91D47D6123E1086800CCFCC9 /* 210.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1923E1086300CCFCC9 /* 210.m4a */; };
+		91D47D6223E1086800CCFCC9 /* 308.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1A23E1086300CCFCC9 /* 308.m4a */; };
+		91D47D6323E1086800CCFCC9 /* 306.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1B23E1086300CCFCC9 /* 306.m4a */; };
+		91D47D6423E1086800CCFCC9 /* 302.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1C23E1086300CCFCC9 /* 302.m4a */; };
+		91D47D6523E1086800CCFCC9 /* 603.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1D23E1086300CCFCC9 /* 603.m4a */; };
+		91D47D6623E1086800CCFCC9 /* 604.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1E23E1086400CCFCC9 /* 604.m4a */; };
+		91D47D6723E1086800CCFCC9 /* 608.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D1F23E1086400CCFCC9 /* 608.m4a */; };
+		91D47D6823E1086800CCFCC9 /* 502.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2023E1086400CCFCC9 /* 502.m4a */; };
+		91D47D6923E1086800CCFCC9 /* 509.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2123E1086400CCFCC9 /* 509.m4a */; };
+		91D47D6A23E1086800CCFCC9 /* 500.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2223E1086400CCFCC9 /* 500.m4a */; };
+		91D47D6B23E1086800CCFCC9 /* 300.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2323E1086400CCFCC9 /* 300.m4a */; };
+		91D47D6C23E1086800CCFCC9 /* 406.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2423E1086400CCFCC9 /* 406.m4a */; };
+		91D47D6D23E1086800CCFCC9 /* 101.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2523E1086400CCFCC9 /* 101.m4a */; };
+		91D47D6E23E1086800CCFCC9 /* 609.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2623E1086400CCFCC9 /* 609.m4a */; };
+		91D47D6F23E1086800CCFCC9 /* 405.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2723E1086400CCFCC9 /* 405.m4a */; };
+		91D47D7023E1086800CCFCC9 /* 108.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2823E1086400CCFCC9 /* 108.m4a */; };
+		91D47D7123E1086800CCFCC9 /* 111.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2923E1086500CCFCC9 /* 111.m4a */; };
+		91D47D7223E1086800CCFCC9 /* 103.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2A23E1086500CCFCC9 /* 103.m4a */; };
+		91D47D7323E1086800CCFCC9 /* 403.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2B23E1086500CCFCC9 /* 403.m4a */; };
+		91D47D7423E1086800CCFCC9 /* 311.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2C23E1086500CCFCC9 /* 311.m4a */; };
+		91D47D7523E1086800CCFCC9 /* 211.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2D23E1086500CCFCC9 /* 211.m4a */; };
+		91D47D7623E1086800CCFCC9 /* 204.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2E23E1086500CCFCC9 /* 204.m4a */; };
+		91D47D7723E1086800CCFCC9 /* 508.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D2F23E1086500CCFCC9 /* 508.m4a */; };
+		91D47D7823E1086800CCFCC9 /* 501.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3023E1086500CCFCC9 /* 501.m4a */; };
+		91D47D7923E1086800CCFCC9 /* 400.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3123E1086500CCFCC9 /* 400.m4a */; };
+		91D47D7A23E1086800CCFCC9 /* 410.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3223E1086500CCFCC9 /* 410.m4a */; };
+		91D47D7B23E1086800CCFCC9 /* 104.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3323E1086500CCFCC9 /* 104.m4a */; };
+		91D47D7C23E1086800CCFCC9 /* 504.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3423E1086500CCFCC9 /* 504.m4a */; };
+		91D47D7D23E1086800CCFCC9 /* 507.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3523E1086600CCFCC9 /* 507.m4a */; };
+		91D47D7E23E1086800CCFCC9 /* 409.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3623E1086600CCFCC9 /* 409.m4a */; };
+		91D47D7F23E1086800CCFCC9 /* 606.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3723E1086600CCFCC9 /* 606.m4a */; };
+		91D47D8023E1086800CCFCC9 /* 106.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3823E1086600CCFCC9 /* 106.m4a */; };
+		91D47D8123E1086800CCFCC9 /* 607.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3923E1086600CCFCC9 /* 607.m4a */; };
+		91D47D8223E1086800CCFCC9 /* 407.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3A23E1086600CCFCC9 /* 407.m4a */; };
+		91D47D8323E1086800CCFCC9 /* 404.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3B23E1086700CCFCC9 /* 404.m4a */; };
+		91D47D8423E1086800CCFCC9 /* 100.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3C23E1086700CCFCC9 /* 100.m4a */; };
+		91D47D8523E1086800CCFCC9 /* 305.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3D23E1086700CCFCC9 /* 305.m4a */; };
+		91D47D8623E1086800CCFCC9 /* 307.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3E23E1086700CCFCC9 /* 307.m4a */; };
+		91D47D8723E1086800CCFCC9 /* 205.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D3F23E1086700CCFCC9 /* 205.m4a */; };
+		91D47D8823E1086800CCFCC9 /* 303.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91D47D4023E1086700CCFCC9 /* 303.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91D47CD123E0FD5C00CCFCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D47CB223E0FD5B00CCFCC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D47CB923E0FD5B00CCFCC9;
+			remoteInfo = DemetraTesi_Accordi_Chitarra;
+		};
+		91D47CDC23E0FD5C00CCFCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D47CB223E0FD5B00CCFCC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D47CB923E0FD5B00CCFCC9;
+			remoteInfo = DemetraTesi_Accordi_Chitarra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91D47CBA23E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemetraTesi_Accordi_Chitarra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D47CBD23E0FD5B00CCFCC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D47CBF23E0FD5B00CCFCC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91D47CC123E0FD5B00CCFCC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91D47CC423E0FD5B00CCFCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91D47CC623E0FD5C00CCFCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D47CC923E0FD5C00CCFCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D47CCB23E0FD5C00CCFCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D47CD023E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemetraTesi_Accordi_ChitarraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D47CD423E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemetraTesi_Accordi_ChitarraTests.swift; sourceTree = "<group>"; };
+		91D47CD623E0FD5C00CCFCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D47CDB23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemetraTesi_Accordi_ChitarraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D47CDF23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemetraTesi_Accordi_ChitarraUITests.swift; sourceTree = "<group>"; };
+		91D47CE123E0FD5C00CCFCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D47CEE23E0FEB100CCFCC9 /* VariabiliGlobali.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariabiliGlobali.swift; sourceTree = "<group>"; };
+		91D47CF423E0FF6700CCFCC9 /* VC_Tutti_accordi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_Tutti_accordi.swift; sourceTree = "<group>"; };
+		91D47CF623E106AC00CCFCC9 /* manicoChitarraLineare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manicoChitarraLineare.png; sourceTree = "<group>"; };
+		91D47CF923E1086100CCFCC9 /* 207.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 207.m4a; sourceTree = "<group>"; };
+		91D47CFA23E1086100CCFCC9 /* 206.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 206.m4a; sourceTree = "<group>"; };
+		91D47CFB23E1086100CCFCC9 /* 309.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 309.m4a; sourceTree = "<group>"; };
+		91D47CFC23E1086100CCFCC9 /* 610.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 610.m4a; sourceTree = "<group>"; };
+		91D47CFD23E1086100CCFCC9 /* 511.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 511.m4a; sourceTree = "<group>"; };
+		91D47CFE23E1086100CCFCC9 /* 611.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 611.m4a; sourceTree = "<group>"; };
+		91D47CFF23E1086100CCFCC9 /* 503.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 503.m4a; sourceTree = "<group>"; };
+		91D47D0023E1086100CCFCC9 /* 105.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 105.m4a; sourceTree = "<group>"; };
+		91D47D0123E1086100CCFCC9 /* 601.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 601.m4a; sourceTree = "<group>"; };
+		91D47D0223E1086100CCFCC9 /* 107.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 107.m4a; sourceTree = "<group>"; };
+		91D47D0323E1086100CCFCC9 /* 310.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 310.m4a; sourceTree = "<group>"; };
+		91D47D0423E1086100CCFCC9 /* 203.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 203.m4a; sourceTree = "<group>"; };
+		91D47D0523E1086100CCFCC9 /* 408.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 408.m4a; sourceTree = "<group>"; };
+		91D47D0623E1086100CCFCC9 /* 510.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 510.m4a; sourceTree = "<group>"; };
+		91D47D0723E1086200CCFCC9 /* 200.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 200.m4a; sourceTree = "<group>"; };
+		91D47D0823E1086200CCFCC9 /* 505.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 505.m4a; sourceTree = "<group>"; };
+		91D47D0923E1086200CCFCC9 /* 110.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 110.m4a; sourceTree = "<group>"; };
+		91D47D0A23E1086200CCFCC9 /* 109.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 109.m4a; sourceTree = "<group>"; };
+		91D47D0B23E1086200CCFCC9 /* 304.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 304.m4a; sourceTree = "<group>"; };
+		91D47D0C23E1086200CCFCC9 /* 102.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 102.m4a; sourceTree = "<group>"; };
+		91D47D0D23E1086200CCFCC9 /* 301.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 301.m4a; sourceTree = "<group>"; };
+		91D47D0E23E1086200CCFCC9 /* 605.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 605.m4a; sourceTree = "<group>"; };
+		91D47D0F23E1086200CCFCC9 /* 602.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 602.m4a; sourceTree = "<group>"; };
+		91D47D1023E1086200CCFCC9 /* 202.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 202.m4a; sourceTree = "<group>"; };
+		91D47D1123E1086200CCFCC9 /* 411.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 411.m4a; sourceTree = "<group>"; };
+		91D47D1223E1086300CCFCC9 /* 506.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 506.m4a; sourceTree = "<group>"; };
+		91D47D1323E1086300CCFCC9 /* 600.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 600.m4a; sourceTree = "<group>"; };
+		91D47D1423E1086300CCFCC9 /* 402.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 402.m4a; sourceTree = "<group>"; };
+		91D47D1523E1086300CCFCC9 /* 209.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 209.m4a; sourceTree = "<group>"; };
+		91D47D1623E1086300CCFCC9 /* 401.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 401.m4a; sourceTree = "<group>"; };
+		91D47D1723E1086300CCFCC9 /* 208.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 208.m4a; sourceTree = "<group>"; };
+		91D47D1823E1086300CCFCC9 /* 201.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 201.m4a; sourceTree = "<group>"; };
+		91D47D1923E1086300CCFCC9 /* 210.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 210.m4a; sourceTree = "<group>"; };
+		91D47D1A23E1086300CCFCC9 /* 308.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 308.m4a; sourceTree = "<group>"; };
+		91D47D1B23E1086300CCFCC9 /* 306.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 306.m4a; sourceTree = "<group>"; };
+		91D47D1C23E1086300CCFCC9 /* 302.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 302.m4a; sourceTree = "<group>"; };
+		91D47D1D23E1086300CCFCC9 /* 603.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 603.m4a; sourceTree = "<group>"; };
+		91D47D1E23E1086400CCFCC9 /* 604.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 604.m4a; sourceTree = "<group>"; };
+		91D47D1F23E1086400CCFCC9 /* 608.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 608.m4a; sourceTree = "<group>"; };
+		91D47D2023E1086400CCFCC9 /* 502.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 502.m4a; sourceTree = "<group>"; };
+		91D47D2123E1086400CCFCC9 /* 509.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 509.m4a; sourceTree = "<group>"; };
+		91D47D2223E1086400CCFCC9 /* 500.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 500.m4a; sourceTree = "<group>"; };
+		91D47D2323E1086400CCFCC9 /* 300.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 300.m4a; sourceTree = "<group>"; };
+		91D47D2423E1086400CCFCC9 /* 406.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 406.m4a; sourceTree = "<group>"; };
+		91D47D2523E1086400CCFCC9 /* 101.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 101.m4a; sourceTree = "<group>"; };
+		91D47D2623E1086400CCFCC9 /* 609.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 609.m4a; sourceTree = "<group>"; };
+		91D47D2723E1086400CCFCC9 /* 405.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 405.m4a; sourceTree = "<group>"; };
+		91D47D2823E1086400CCFCC9 /* 108.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 108.m4a; sourceTree = "<group>"; };
+		91D47D2923E1086500CCFCC9 /* 111.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 111.m4a; sourceTree = "<group>"; };
+		91D47D2A23E1086500CCFCC9 /* 103.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 103.m4a; sourceTree = "<group>"; };
+		91D47D2B23E1086500CCFCC9 /* 403.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 403.m4a; sourceTree = "<group>"; };
+		91D47D2C23E1086500CCFCC9 /* 311.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 311.m4a; sourceTree = "<group>"; };
+		91D47D2D23E1086500CCFCC9 /* 211.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 211.m4a; sourceTree = "<group>"; };
+		91D47D2E23E1086500CCFCC9 /* 204.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 204.m4a; sourceTree = "<group>"; };
+		91D47D2F23E1086500CCFCC9 /* 508.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 508.m4a; sourceTree = "<group>"; };
+		91D47D3023E1086500CCFCC9 /* 501.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 501.m4a; sourceTree = "<group>"; };
+		91D47D3123E1086500CCFCC9 /* 400.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 400.m4a; sourceTree = "<group>"; };
+		91D47D3223E1086500CCFCC9 /* 410.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 410.m4a; sourceTree = "<group>"; };
+		91D47D3323E1086500CCFCC9 /* 104.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 104.m4a; sourceTree = "<group>"; };
+		91D47D3423E1086500CCFCC9 /* 504.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 504.m4a; sourceTree = "<group>"; };
+		91D47D3523E1086600CCFCC9 /* 507.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 507.m4a; sourceTree = "<group>"; };
+		91D47D3623E1086600CCFCC9 /* 409.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 409.m4a; sourceTree = "<group>"; };
+		91D47D3723E1086600CCFCC9 /* 606.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 606.m4a; sourceTree = "<group>"; };
+		91D47D3823E1086600CCFCC9 /* 106.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 106.m4a; sourceTree = "<group>"; };
+		91D47D3923E1086600CCFCC9 /* 607.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 607.m4a; sourceTree = "<group>"; };
+		91D47D3A23E1086600CCFCC9 /* 407.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 407.m4a; sourceTree = "<group>"; };
+		91D47D3B23E1086700CCFCC9 /* 404.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 404.m4a; sourceTree = "<group>"; };
+		91D47D3C23E1086700CCFCC9 /* 100.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 100.m4a; sourceTree = "<group>"; };
+		91D47D3D23E1086700CCFCC9 /* 305.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 305.m4a; sourceTree = "<group>"; };
+		91D47D3E23E1086700CCFCC9 /* 307.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 307.m4a; sourceTree = "<group>"; };
+		91D47D3F23E1086700CCFCC9 /* 205.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 205.m4a; sourceTree = "<group>"; };
+		91D47D4023E1086700CCFCC9 /* 303.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 303.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D47CB723E0FD5B00CCFCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D47CCD23E0FD5C00CCFCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D47CD823E0FD5C00CCFCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91D47CB123E0FD5B00CCFCC9 = {
+			isa = PBXGroup;
+			children = (
+				91D47CBC23E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra */,
+				91D47CD323E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests */,
+				91D47CDE23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests */,
+				91D47CBB23E0FD5B00CCFCC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D47CBB23E0FD5B00CCFCC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D47CBA23E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra.app */,
+				91D47CD023E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.xctest */,
+				91D47CDB23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D47CBC23E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra */ = {
+			isa = PBXGroup;
+			children = (
+				91D47CF623E106AC00CCFCC9 /* manicoChitarraLineare.png */,
+				91D47CF823E1070300CCFCC9 /* suoni */,
+				91D47CBD23E0FD5B00CCFCC9 /* AppDelegate.swift */,
+				91D47CF423E0FF6700CCFCC9 /* VC_Tutti_accordi.swift */,
+				91D47CBF23E0FD5B00CCFCC9 /* SceneDelegate.swift */,
+				91D47CC123E0FD5B00CCFCC9 /* ViewController.swift */,
+				91D47CEE23E0FEB100CCFCC9 /* VariabiliGlobali.swift */,
+				91D47CC323E0FD5B00CCFCC9 /* Main.storyboard */,
+				91D47CC623E0FD5C00CCFCC9 /* Assets.xcassets */,
+				91D47CC823E0FD5C00CCFCC9 /* LaunchScreen.storyboard */,
+				91D47CCB23E0FD5C00CCFCC9 /* Info.plist */,
+			);
+			path = DemetraTesi_Accordi_Chitarra;
+			sourceTree = "<group>";
+		};
+		91D47CD323E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests */ = {
+			isa = PBXGroup;
+			children = (
+				91D47CD423E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.swift */,
+				91D47CD623E0FD5C00CCFCC9 /* Info.plist */,
+			);
+			path = DemetraTesi_Accordi_ChitarraTests;
+			sourceTree = "<group>";
+		};
+		91D47CDE23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D47CDF23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.swift */,
+				91D47CE123E0FD5C00CCFCC9 /* Info.plist */,
+			);
+			path = DemetraTesi_Accordi_ChitarraUITests;
+			sourceTree = "<group>";
+		};
+		91D47CF823E1070300CCFCC9 /* suoni */ = {
+			isa = PBXGroup;
+			children = (
+				91D47D3C23E1086700CCFCC9 /* 100.m4a */,
+				91D47D2523E1086400CCFCC9 /* 101.m4a */,
+				91D47D0C23E1086200CCFCC9 /* 102.m4a */,
+				91D47D2A23E1086500CCFCC9 /* 103.m4a */,
+				91D47D3323E1086500CCFCC9 /* 104.m4a */,
+				91D47D0023E1086100CCFCC9 /* 105.m4a */,
+				91D47D3823E1086600CCFCC9 /* 106.m4a */,
+				91D47D0223E1086100CCFCC9 /* 107.m4a */,
+				91D47D2823E1086400CCFCC9 /* 108.m4a */,
+				91D47D0A23E1086200CCFCC9 /* 109.m4a */,
+				91D47D0923E1086200CCFCC9 /* 110.m4a */,
+				91D47D2923E1086500CCFCC9 /* 111.m4a */,
+				91D47D0723E1086200CCFCC9 /* 200.m4a */,
+				91D47D1823E1086300CCFCC9 /* 201.m4a */,
+				91D47D1023E1086200CCFCC9 /* 202.m4a */,
+				91D47D0423E1086100CCFCC9 /* 203.m4a */,
+				91D47D2E23E1086500CCFCC9 /* 204.m4a */,
+				91D47D3F23E1086700CCFCC9 /* 205.m4a */,
+				91D47CFA23E1086100CCFCC9 /* 206.m4a */,
+				91D47CF923E1086100CCFCC9 /* 207.m4a */,
+				91D47D1723E1086300CCFCC9 /* 208.m4a */,
+				91D47D1523E1086300CCFCC9 /* 209.m4a */,
+				91D47D1923E1086300CCFCC9 /* 210.m4a */,
+				91D47D2D23E1086500CCFCC9 /* 211.m4a */,
+				91D47D2323E1086400CCFCC9 /* 300.m4a */,
+				91D47D0D23E1086200CCFCC9 /* 301.m4a */,
+				91D47D1C23E1086300CCFCC9 /* 302.m4a */,
+				91D47D4023E1086700CCFCC9 /* 303.m4a */,
+				91D47D0B23E1086200CCFCC9 /* 304.m4a */,
+				91D47D3D23E1086700CCFCC9 /* 305.m4a */,
+				91D47D1B23E1086300CCFCC9 /* 306.m4a */,
+				91D47D3E23E1086700CCFCC9 /* 307.m4a */,
+				91D47D1A23E1086300CCFCC9 /* 308.m4a */,
+				91D47CFB23E1086100CCFCC9 /* 309.m4a */,
+				91D47D0323E1086100CCFCC9 /* 310.m4a */,
+				91D47D2C23E1086500CCFCC9 /* 311.m4a */,
+				91D47D3123E1086500CCFCC9 /* 400.m4a */,
+				91D47D1623E1086300CCFCC9 /* 401.m4a */,
+				91D47D1423E1086300CCFCC9 /* 402.m4a */,
+				91D47D2B23E1086500CCFCC9 /* 403.m4a */,
+				91D47D3B23E1086700CCFCC9 /* 404.m4a */,
+				91D47D2723E1086400CCFCC9 /* 405.m4a */,
+				91D47D2423E1086400CCFCC9 /* 406.m4a */,
+				91D47D3A23E1086600CCFCC9 /* 407.m4a */,
+				91D47D0523E1086100CCFCC9 /* 408.m4a */,
+				91D47D3623E1086600CCFCC9 /* 409.m4a */,
+				91D47D3223E1086500CCFCC9 /* 410.m4a */,
+				91D47D1123E1086200CCFCC9 /* 411.m4a */,
+				91D47D2223E1086400CCFCC9 /* 500.m4a */,
+				91D47D3023E1086500CCFCC9 /* 501.m4a */,
+				91D47D2023E1086400CCFCC9 /* 502.m4a */,
+				91D47CFF23E1086100CCFCC9 /* 503.m4a */,
+				91D47D3423E1086500CCFCC9 /* 504.m4a */,
+				91D47D0823E1086200CCFCC9 /* 505.m4a */,
+				91D47D1223E1086300CCFCC9 /* 506.m4a */,
+				91D47D3523E1086600CCFCC9 /* 507.m4a */,
+				91D47D2F23E1086500CCFCC9 /* 508.m4a */,
+				91D47D2123E1086400CCFCC9 /* 509.m4a */,
+				91D47D0623E1086100CCFCC9 /* 510.m4a */,
+				91D47CFD23E1086100CCFCC9 /* 511.m4a */,
+				91D47D1323E1086300CCFCC9 /* 600.m4a */,
+				91D47D0123E1086100CCFCC9 /* 601.m4a */,
+				91D47D0F23E1086200CCFCC9 /* 602.m4a */,
+				91D47D1D23E1086300CCFCC9 /* 603.m4a */,
+				91D47D1E23E1086400CCFCC9 /* 604.m4a */,
+				91D47D0E23E1086200CCFCC9 /* 605.m4a */,
+				91D47D3723E1086600CCFCC9 /* 606.m4a */,
+				91D47D3923E1086600CCFCC9 /* 607.m4a */,
+				91D47D1F23E1086400CCFCC9 /* 608.m4a */,
+				91D47D2623E1086400CCFCC9 /* 609.m4a */,
+				91D47CFC23E1086100CCFCC9 /* 610.m4a */,
+				91D47CFE23E1086100CCFCC9 /* 611.m4a */,
+			);
+			name = suoni;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D47CB923E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D47CE423E0FD5C00CCFCC9 /* Build configuration list for PBXNativeTarget "DemetraTesi_Accordi_Chitarra" */;
+			buildPhases = (
+				91D47CB623E0FD5B00CCFCC9 /* Sources */,
+				91D47CB723E0FD5B00CCFCC9 /* Frameworks */,
+				91D47CB823E0FD5B00CCFCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemetraTesi_Accordi_Chitarra;
+			productName = DemetraTesi_Accordi_Chitarra;
+			productReference = 91D47CBA23E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D47CCF23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D47CE723E0FD5C00CCFCC9 /* Build configuration list for PBXNativeTarget "DemetraTesi_Accordi_ChitarraTests" */;
+			buildPhases = (
+				91D47CCC23E0FD5C00CCFCC9 /* Sources */,
+				91D47CCD23E0FD5C00CCFCC9 /* Frameworks */,
+				91D47CCE23E0FD5C00CCFCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D47CD223E0FD5C00CCFCC9 /* PBXTargetDependency */,
+			);
+			name = DemetraTesi_Accordi_ChitarraTests;
+			productName = DemetraTesi_Accordi_ChitarraTests;
+			productReference = 91D47CD023E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D47CDA23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D47CEA23E0FD5C00CCFCC9 /* Build configuration list for PBXNativeTarget "DemetraTesi_Accordi_ChitarraUITests" */;
+			buildPhases = (
+				91D47CD723E0FD5C00CCFCC9 /* Sources */,
+				91D47CD823E0FD5C00CCFCC9 /* Frameworks */,
+				91D47CD923E0FD5C00CCFCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D47CDD23E0FD5C00CCFCC9 /* PBXTargetDependency */,
+			);
+			name = DemetraTesi_Accordi_ChitarraUITests;
+			productName = DemetraTesi_Accordi_ChitarraUITests;
+			productReference = 91D47CDB23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D47CB223E0FD5B00CCFCC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Enrico Biacca";
+				TargetAttributes = {
+					91D47CB923E0FD5B00CCFCC9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					91D47CCF23E0FD5C00CCFCC9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 91D47CB923E0FD5B00CCFCC9;
+					};
+					91D47CDA23E0FD5C00CCFCC9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 91D47CB923E0FD5B00CCFCC9;
+					};
+				};
+			};
+			buildConfigurationList = 91D47CB523E0FD5B00CCFCC9 /* Build configuration list for PBXProject "DemetraTesi_Accordi_Chitarra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D47CB123E0FD5B00CCFCC9;
+			productRefGroup = 91D47CBB23E0FD5B00CCFCC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D47CB923E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra */,
+				91D47CCF23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests */,
+				91D47CDA23E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D47CB823E0FD5B00CCFCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D47D7E23E1086800CCFCC9 /* 409.m4a in Resources */,
+				91D47D6723E1086800CCFCC9 /* 608.m4a in Resources */,
+				91D47D6223E1086800CCFCC9 /* 308.m4a in Resources */,
+				91D47D4B23E1086800CCFCC9 /* 310.m4a in Resources */,
+				91D47D8523E1086800CCFCC9 /* 305.m4a in Resources */,
+				91D47D5523E1086800CCFCC9 /* 301.m4a in Resources */,
+				91D47D6323E1086800CCFCC9 /* 306.m4a in Resources */,
+				91D47D6123E1086800CCFCC9 /* 210.m4a in Resources */,
+				91D47D6D23E1086800CCFCC9 /* 101.m4a in Resources */,
+				91D47D8623E1086800CCFCC9 /* 307.m4a in Resources */,
+				91D47CCA23E0FD5C00CCFCC9 /* LaunchScreen.storyboard in Resources */,
+				91D47CF723E106AD00CCFCC9 /* manicoChitarraLineare.png in Resources */,
+				91D47D7723E1086800CCFCC9 /* 508.m4a in Resources */,
+				91D47D5223E1086800CCFCC9 /* 109.m4a in Resources */,
+				91D47D7323E1086800CCFCC9 /* 403.m4a in Resources */,
+				91D47D7623E1086800CCFCC9 /* 204.m4a in Resources */,
+				91D47D4E23E1086800CCFCC9 /* 510.m4a in Resources */,
+				91D47D4923E1086800CCFCC9 /* 601.m4a in Resources */,
+				91D47D8223E1086800CCFCC9 /* 407.m4a in Resources */,
+				91D47D7023E1086800CCFCC9 /* 108.m4a in Resources */,
+				91D47D7C23E1086800CCFCC9 /* 504.m4a in Resources */,
+				91D47D8723E1086800CCFCC9 /* 205.m4a in Resources */,
+				91D47CC723E0FD5C00CCFCC9 /* Assets.xcassets in Resources */,
+				91D47D4223E1086800CCFCC9 /* 206.m4a in Resources */,
+				91D47D4323E1086800CCFCC9 /* 309.m4a in Resources */,
+				91D47D8823E1086800CCFCC9 /* 303.m4a in Resources */,
+				91D47D6523E1086800CCFCC9 /* 603.m4a in Resources */,
+				91D47D6923E1086800CCFCC9 /* 509.m4a in Resources */,
+				91D47D5923E1086800CCFCC9 /* 411.m4a in Resources */,
+				91D47D4F23E1086800CCFCC9 /* 200.m4a in Resources */,
+				91D47D5123E1086800CCFCC9 /* 110.m4a in Resources */,
+				91D47D7B23E1086800CCFCC9 /* 104.m4a in Resources */,
+				91D47D7223E1086800CCFCC9 /* 103.m4a in Resources */,
+				91D47D6823E1086800CCFCC9 /* 502.m4a in Resources */,
+				91D47D5C23E1086800CCFCC9 /* 402.m4a in Resources */,
+				91D47D8023E1086800CCFCC9 /* 106.m4a in Resources */,
+				91D47D5023E1086800CCFCC9 /* 505.m4a in Resources */,
+				91D47CC523E0FD5B00CCFCC9 /* Main.storyboard in Resources */,
+				91D47D4A23E1086800CCFCC9 /* 107.m4a in Resources */,
+				91D47D7423E1086800CCFCC9 /* 311.m4a in Resources */,
+				91D47D6423E1086800CCFCC9 /* 302.m4a in Resources */,
+				91D47D5823E1086800CCFCC9 /* 202.m4a in Resources */,
+				91D47D7F23E1086800CCFCC9 /* 606.m4a in Resources */,
+				91D47D7823E1086800CCFCC9 /* 501.m4a in Resources */,
+				91D47D6023E1086800CCFCC9 /* 201.m4a in Resources */,
+				91D47D7D23E1086800CCFCC9 /* 507.m4a in Resources */,
+				91D47D8323E1086800CCFCC9 /* 404.m4a in Resources */,
+				91D47D5723E1086800CCFCC9 /* 602.m4a in Resources */,
+				91D47D5A23E1086800CCFCC9 /* 506.m4a in Resources */,
+				91D47D5323E1086800CCFCC9 /* 304.m4a in Resources */,
+				91D47D5623E1086800CCFCC9 /* 605.m4a in Resources */,
+				91D47D4D23E1086800CCFCC9 /* 408.m4a in Resources */,
+				91D47D8423E1086800CCFCC9 /* 100.m4a in Resources */,
+				91D47D5F23E1086800CCFCC9 /* 208.m4a in Resources */,
+				91D47D6C23E1086800CCFCC9 /* 406.m4a in Resources */,
+				91D47D4523E1086800CCFCC9 /* 511.m4a in Resources */,
+				91D47D6B23E1086800CCFCC9 /* 300.m4a in Resources */,
+				91D47D7A23E1086800CCFCC9 /* 410.m4a in Resources */,
+				91D47D7123E1086800CCFCC9 /* 111.m4a in Resources */,
+				91D47D5D23E1086800CCFCC9 /* 209.m4a in Resources */,
+				91D47D4623E1086800CCFCC9 /* 611.m4a in Resources */,
+				91D47D6F23E1086800CCFCC9 /* 405.m4a in Resources */,
+				91D47D5423E1086800CCFCC9 /* 102.m4a in Resources */,
+				91D47D4423E1086800CCFCC9 /* 610.m4a in Resources */,
+				91D47D5E23E1086800CCFCC9 /* 401.m4a in Resources */,
+				91D47D7523E1086800CCFCC9 /* 211.m4a in Resources */,
+				91D47D4C23E1086800CCFCC9 /* 203.m4a in Resources */,
+				91D47D6A23E1086800CCFCC9 /* 500.m4a in Resources */,
+				91D47D4823E1086800CCFCC9 /* 105.m4a in Resources */,
+				91D47D4723E1086800CCFCC9 /* 503.m4a in Resources */,
+				91D47D8123E1086800CCFCC9 /* 607.m4a in Resources */,
+				91D47D6E23E1086800CCFCC9 /* 609.m4a in Resources */,
+				91D47D6623E1086800CCFCC9 /* 604.m4a in Resources */,
+				91D47D4123E1086800CCFCC9 /* 207.m4a in Resources */,
+				91D47D5B23E1086800CCFCC9 /* 600.m4a in Resources */,
+				91D47D7923E1086800CCFCC9 /* 400.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D47CCE23E0FD5C00CCFCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D47CD923E0FD5C00CCFCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D47CB623E0FD5B00CCFCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D47CF523E0FF6700CCFCC9 /* VC_Tutti_accordi.swift in Sources */,
+				91D47CC223E0FD5B00CCFCC9 /* ViewController.swift in Sources */,
+				91D47CBE23E0FD5B00CCFCC9 /* AppDelegate.swift in Sources */,
+				91D47CEF23E0FEB100CCFCC9 /* VariabiliGlobali.swift in Sources */,
+				91D47CC023E0FD5B00CCFCC9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D47CCC23E0FD5C00CCFCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D47CD523E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D47CD723E0FD5C00CCFCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D47CE023E0FD5C00CCFCC9 /* DemetraTesi_Accordi_ChitarraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91D47CD223E0FD5C00CCFCC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D47CB923E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra */;
+			targetProxy = 91D47CD123E0FD5C00CCFCC9 /* PBXContainerItemProxy */;
+		};
+		91D47CDD23E0FD5C00CCFCC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D47CB923E0FD5B00CCFCC9 /* DemetraTesi_Accordi_Chitarra */;
+			targetProxy = 91D47CDC23E0FD5C00CCFCC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91D47CC323E0FD5B00CCFCC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D47CC423E0FD5B00CCFCC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91D47CC823E0FD5C00CCFCC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D47CC923E0FD5C00CCFCC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91D47CE223E0FD5C00CCFCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D47CE323E0FD5C00CCFCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D47CE523E0FD5C00CCFCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BYT5926GL;
+				INFOPLIST_FILE = DemetraTesi_Accordi_Chitarra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bica.DemetraTesi-Accordi-Chitarra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		91D47CE623E0FD5C00CCFCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BYT5926GL;
+				INFOPLIST_FILE = DemetraTesi_Accordi_Chitarra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bica.DemetraTesi-Accordi-Chitarra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		91D47CE823E0FD5C00CCFCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BYT5926GL;
+				INFOPLIST_FILE = DemetraTesi_Accordi_ChitarraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bica.DemetraTesi-Accordi-ChitarraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemetraTesi_Accordi_Chitarra.app/DemetraTesi_Accordi_Chitarra";
+			};
+			name = Debug;
+		};
+		91D47CE923E0FD5C00CCFCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BYT5926GL;
+				INFOPLIST_FILE = DemetraTesi_Accordi_ChitarraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bica.DemetraTesi-Accordi-ChitarraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemetraTesi_Accordi_Chitarra.app/DemetraTesi_Accordi_Chitarra";
+			};
+			name = Release;
+		};
+		91D47CEB23E0FD5C00CCFCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BYT5926GL;
+				INFOPLIST_FILE = DemetraTesi_Accordi_ChitarraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bica.DemetraTesi-Accordi-ChitarraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemetraTesi_Accordi_Chitarra;
+			};
+			name = Debug;
+		};
+		91D47CEC23E0FD5C00CCFCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BYT5926GL;
+				INFOPLIST_FILE = DemetraTesi_Accordi_ChitarraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bica.DemetraTesi-Accordi-ChitarraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemetraTesi_Accordi_Chitarra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D47CB523E0FD5B00CCFCC9 /* Build configuration list for PBXProject "DemetraTesi_Accordi_Chitarra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D47CE223E0FD5C00CCFCC9 /* Debug */,
+				91D47CE323E0FD5C00CCFCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D47CE423E0FD5C00CCFCC9 /* Build configuration list for PBXNativeTarget "DemetraTesi_Accordi_Chitarra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D47CE523E0FD5C00CCFCC9 /* Debug */,
+				91D47CE623E0FD5C00CCFCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D47CE723E0FD5C00CCFCC9 /* Build configuration list for PBXNativeTarget "DemetraTesi_Accordi_ChitarraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D47CE823E0FD5C00CCFCC9 /* Debug */,
+				91D47CE923E0FD5C00CCFCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D47CEA23E0FD5C00CCFCC9 /* Build configuration list for PBXNativeTarget "DemetraTesi_Accordi_ChitarraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D47CEB23E0FD5C00CCFCC9 /* Debug */,
+				91D47CEC23E0FD5C00CCFCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91D47CB223E0FD5B00CCFCC9 /* Project object */;
+}
